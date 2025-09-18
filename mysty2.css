@@ -1,14 +1,39 @@
-h1, h2, h3, h4, h6 {
+h1, h2, h3, h4, h6, ul {
     color:whitesmoke
 }
+
+h1{
+text-align: center ;
+}
+
 body{
     background-color: black;
 }
 
-p, h5{
+p, h5, li{
     color:crimson;
 }
 
 nav{
-    color:lightgrey;
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: rgba(88, 83, 83, 0.448);
 }
+
+nav li{
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    display: inline ;
+    padding-right: 40px;
+}
+
+nav a:link{
+    color: rgb(255, 191, 184);
+}
+
+nav a:visited{
+    color: rgb(255, 191, 184);
+}
+
