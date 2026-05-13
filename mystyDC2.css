@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 96%;
+    margin: 0 auto;
+}
+
+header {
+    height: 4.6875%;
+    width: 94.79166666666667%;
+    padding: 2.604166666666667%;
+    margin-bottom: 1.041666666666667%;
+}
+
+nav {
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: rgba(88, 83, 83, 0.448);
+    padding: 1.041666666666667%;
+
+}
+
+nav li {
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    display: inline;
+    padding-right: 4.166666666666667%;
+}
+
+nav a:link {
+    color: rgb(255, 191, 184);
+}
+
+nav a:visited {
+    color: rgb(255, 191, 184);
+}
+
+aside {
+    width: 20.83333333333333%;
+    height: 48.95833333333333%;
+    padding: 1.041666666666667%;
+    margin: 0 1.041666666666667% 1.041666666666667% 0;
+    float: left;
+}
+
+aside img {
+    width: 100%;
+    height: 80%;
+    max-width: 208px ;
+    min-width: 104px ;
+}
+
+section {
+    width: 73.95833333333333%;
+    height: 41.66666666666667%;
+    margin: 0 0 1.041666666666667% 0;
+    padding: 1.041666666666667%;
+    float: right;
+}
+
+footer {
+    clear: both;
+    padding: 1.041666666666667%;
+}
+
+body {
+    background-color: black;
+}
+
+p,
+h5,
+li {
+    color: crimson;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+ul {
+    color: whitesmoke
+}
+
+h5 {
+    padding-top: 1.041666666666667%;
+}
+
+@media only screen and (max-width: 750px) {
+aside, section {
+    width: 100%;
+    float: none;
+    height:auto;
+}
+
+}
