@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<nav>
+    <ul>
+        <li> <a href="index.html" title="Overview">Overview</a> </li>
+        <li> <a href="act1.html" title="Act 1">Act 1</a> </li>
+        <li> <a href="act2.html" title="Act 2">Act 2</a> </li>
+        <li> <a href="act3.html" title="Act 3">Act 3</a> </li>
+        <li> <a href="Courses.html" title="College Courses">Courses</a> </li>
+        <li> <a href="Double_Column.html" title="Double Column">Double_Column</a> </li>
+        <li> <a href="Double_Column2.html" title="Double Column Responsive">Double_Column2</a> </li>
+    </ul>
+</nav>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order Form</title>
+    <meta name="description" content="A page about the Dark Urge from baldur's gate 3. ">
+    <meta name=Keywords content="Dark Urge">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Form.css">
+</head>
+
+<body>
+    <h2>Customer Information</h2>
+    <form id="pizza_form" action="" method="post">
+        <p>Name: <input type="text" name="Customer Name" id="Customer_Name" placeholder="Name?"></p>
+        <p>Address: <input type="text" name="Address" id="Address" placeholder="Delivery Address?"></p>
+        <p>Phone Number: <input type="tel" name="Phone_Number" id="Phone_Number" placeholder="Phone Number?"></p>
+
+        <h2>Order Information</h2>
+        <p>Pizza Size:</p>
+        <input type="radio" name="Small" id="Small">
+        <label for="Small">Small (8 inch) </label> <br>
+        <input type="radio" name="Medium" id="Medium">
+        <label for="Pizza_Size">Medium (12 inch)</label> <br>
+        <input type="radio" name="Large" id="Large">
+        <label for="Pizza_Size">Large (14 inch)</label>
+
+
+        <p>Toppings:</p>
+        <input type="checkbox" name="Pepperoni" id="Pepperoni">
+        <label for="Pepperoni">Pepperoni</label> <br>
+        <input type="checkbox" name="Sausage" id="Sausage">
+        <label for="Sausage">Sausage</label> <br>
+        <input type="checkbox" name="Pineapple" id="Pineapple">
+        <label for="Pineapple">Pineapple</label> <br>
+        <input type="checkbox" name="Anchovies" id="Anchovies">
+        <label for="Anchovies">Anchovies</label> <br>
+        <input type="checkbox" name="Peppers" id="Peppers">
+        <label for="Peppers">Peppers</label>
+        <textarea name="Instructions" id="Instructions" cols="30" rows="10"
+            placeholder="ADDITIONAL INSTRUCTIONS"></textarea>
+
+        <p><input type="submit" id="Submit" value="Order"> </p>
+</body>
+
+</form>
+
+</html>
